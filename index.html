@@ -5,14 +5,17 @@
 
     <style>
 
-        /* 1. Load your custom font */
         @font-face {
             font-family: myHeaderFont;
             src: url("fonts/header.ttf");
         }
 
+        @font-face {
+            font-family: myBodyFont;
+            src: url("fonts/body.otf");
+        }
+
         body {
-            font-family: Arial;
             background-image: url("images/mooo.jpg");
             background-size: cover;
             background-repeat: no-repeat;
@@ -20,13 +23,13 @@
             text-align: center;
         }
 
-        /* 2. Use custom font ONLY for headers */
         h1 {
-            color: #D13B1D;
             font-family: myHeaderFont, Arial, sans-serif;
+            color: #D13B1D;
         }
 
         p {
+            font-family: myBodyFont, Arial, sans-serif;
             color: #000000;
         }
 
