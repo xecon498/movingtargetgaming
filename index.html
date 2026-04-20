@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-    body {
-    font-family: Arial;
-    background-image: url("images/mooo.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
+    <title>Moving Target Gaming</title>
 
-    h1 {
-        color: #D13B1D;
-    }
+    <style>
+
+        /* 1. Load your custom font */
+        @font-face {
+            font-family: myHeaderFont;
+            src: url("fonts/header.ttf");
+        }
+
+        body {
+            font-family: Arial;
+            background-image: url("images/mooo.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            text-align: center;
+        }
+
+        /* 2. Use custom font ONLY for headers */
+        h1 {
+            color: #D13B1D;
+            font-family: myHeaderFont, Arial, sans-serif;
+        }
+
         p {
             color: #000000;
-    }  
-</style>
-    <title>Moving Target Gaming</title>
+        }
+
+    </style>
 </head>
+
 <body>
 
     <h1>Hello, GAMERS.</h1>
+
     <p>This is my first website. This is my first time using this domain.</p>
     <p>This is more or less just a test to see what html is like.</p>
-    <h1> Coming Soon;</h1>
+
+    <h1>Coming Soon;</h1>
+
     <img src="images/chin.png" alt="a funny meme">
-    <p>Isn't that a funny meme?<p>
-    <p>Your favourite roleplay server is dead... and now you're here.<p>
+
+    <p>Isn't that a funny meme?</p>
+    <p>Your favourite roleplay server is dead... and now you're here.</p>
+
     <img src="images/toys.PNG" alt="admin abuse">
+
 </body>
 </html>
