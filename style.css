@@ -46,3 +46,11 @@ header {
     background: var(--primary-color);
 
 }
+
+.navbar .nav-logo .logo-text {
+    color: var(--white-color);
+}
+
+.navbar .nav-menu .navlink {
+color: var(--white-color)
+}
