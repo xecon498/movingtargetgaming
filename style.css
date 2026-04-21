@@ -16,3 +16,15 @@
 header {
     background: var(--primary-color);
 }
+
+: root {
+
+}
+
+  /* Colors */
+--white-color: #fff;
+--dark-color: #252525;
+--primary-color: #3b141c;
+--secondary-color: #f3961c;
+--light-pink-color: #faf4f5
+--medium-gray-color: #ccc;
